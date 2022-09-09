@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "djangocrmproject002"
+version = "0.1.0"
+description = ""
+authors = ["vikornienko <vikornienko76@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.1"
+
+[tool.poetry.dev-dependencies]
+selenium = "^4.4.3"
+django-debug-toolbar = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
